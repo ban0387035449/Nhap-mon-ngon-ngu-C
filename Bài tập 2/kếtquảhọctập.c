@@ -12,3 +12,19 @@ scanf("%lf",&v);
 printf("điểm văn \t điểm toán \t diểm trung bình \n %.lf \t %.lf \t %.lf",t,v,dtb);
 return 0;
 }
+ sửa
+ #include <stdio.h>
+int main(){
+  //di?m van :v
+  //di?m toán:t
+  //di?m trung bình: dtb
+  float v,t,dtb;
+printf ("diem toán t=");
+scanf("%f",&t);
+printf ("diem van v=");
+scanf("%f",&v);
+dtb=(v+t)/2;
+printf("diem van \t diem toán \t diem trung bình \n ");
+printf ("%g \t %g \t %g",t,v,dtb);
+return 0;
+}
