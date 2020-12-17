@@ -22,6 +22,8 @@ int main(){
     case 8:
     case 10:
     case 12:
+     printf ("31 ngay");
+      break;
       default: // các trường hợp còn lại
        printf ( "vui long nhap tu 1 den 12");
     
