@@ -3,7 +3,7 @@ int main(){
 
   int thang;
   printf ("vui long nhap thang ");
-  // nhập phép tính cộng hoặc trừ
+  // nhập số tháng
   scanf ("%d", &thang);
   switch(thang) {
      case 2:
