@@ -50,7 +50,8 @@ int main()
     printf("thanh tien \n");
     printf ("%.f",thanh_tien );
    
-  }else {
+  }//các trường hợp còn lại tính tiền bình thường
+  else {
     thanh_tien = don_gia * so_luong;
     printf("thanh_tien \n");
     printf("%.f",thanh_tien);
