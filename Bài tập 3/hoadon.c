@@ -45,7 +45,7 @@ int main()
     scanf ("%f",&so_luong);
   
   // số lượng từ 5 đơn trở lên và đơn giá từ 500 sẽ được giảm giá 50%
-  if (so_luong>=5&don_gia>=500){
+  if (so_luong>=5&&don_gia>=500){
     thanh_tien = don_gia*so_luong*0.5;
     printf("thanh tien \n");
     printf ("%.f",thanh_tien );
