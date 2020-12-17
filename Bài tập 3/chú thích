@@ -1,0 +1,10 @@
+ break kết thúc 1 lệnh
+ switch thay if trong 1 số trường hợp số hoặc kí tự
+ default các trường hợp còn lại
+  case các trường hợp
+  #cú pháp
+  switch
+  case + trường hợp
+  break để kết thúc lệnh
+  printf để in
+  default các trường hợp còn lại để kết thúc
