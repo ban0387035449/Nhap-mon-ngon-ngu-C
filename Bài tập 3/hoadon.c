@@ -13,7 +13,8 @@ int main() {
   printf("thanh_tien \n");
   printf("%d",thanh_tien);
 
-  }if (so_luong>=5){
+  }
+  else{
   thanh_tien = don_gia*so_luong*75/100;
   printf("thanh tien \n");
   printf ("%d",thanh_tien );
