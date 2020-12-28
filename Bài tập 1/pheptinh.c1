@@ -10,7 +10,6 @@ int main()
 	hieu = a-b;
 	tich = a*b;
 	thuong = (double)a/b;
-	printf ("a \t b \t a+b \t a-b \t a*b \t a/b \n %d \t %d \t %d \t %d \t %d \t %0.1f",a,b,tong,hieu,tich,thuong);
+	printf ("a \t b \t a+b \t a-b \t a*b \t a/b \n%d\t %d \t %d \t     %d \t  %d \t %0.1f",a,b,tong,hieu,tich,thuong);
 	return 0;
 	}
-	
