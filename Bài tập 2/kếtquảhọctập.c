@@ -28,3 +28,19 @@ printf("diem van \t diem toán \t diem trung bình \n ");
 printf ("%g \t %g \t %g",t,v,dtb);
 return 0;
 }
+sua lan cuoi
+#include <stdio.h>
+int main(){
+  //điểm văn :v
+  //điểm toán:t
+  //điểm trung bình: đtb
+  double v,t,dtb;
+  //dtb=(float)(v+t)/2;
+printf ("diểm toán t=");
+scanf("%lf",&t);
+printf ("điểm văn v=");
+scanf("%lf",&v);
+dtb=(v+t)/2;
+printf("điểm văn \t điểm toán \t diểm trung bình \n      %.f \t    %.f \t      %.lf",t,v,dtb);
+return 0;
+}
