@@ -8,7 +8,7 @@ int main()
   printf ("%d  " , num);
   }
   return 0;
-  
+}
   
   //nằm trên 10 hàng#include <stdio.h>
 
