@@ -1,25 +1,26 @@
 cau a tam giac dac
+#include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    int a; int b = 0;
+    int n; int q = 0;
+    
     printf("Nhap chieu cao tam giac cua ban: \n");
-    scanf("%d",&a);
+    scanf("%d",&n);
 
-    while (a > 0)
+    while (n > 0)
     {
-        for (int i = 1; i<a; i++)
+        for (int i = 1; i<n; i++)
             printf("%c ", ' ');
-        for (int k = 0; k <= b; k ++)
+        for (int k = 0; k <= q; k ++)
             printf("%c ", '*');
-        for (int k = 0; k < b; k ++)
-            printf("%c ", '*');
-        a -- ;
-        b ++ ;
+        n -- ;
+        q += 2 ;
         printf("\n");
     }
-return 0;
+
+    return 0;
 
 }
   
