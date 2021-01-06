@@ -1,7 +1,5 @@
 cau a tam giac dac
 #include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
     int n; int q = 0;
@@ -27,8 +25,6 @@ int main()
   
 cau b tam giac rong nam giua man hinh
 #include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
     int n; int q = 0;
