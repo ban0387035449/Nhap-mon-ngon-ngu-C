@@ -1,38 +1,47 @@
-#include <stdio.h>
-
+#include <assert.h>
+#include <limits.h>
 #include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int main() {
+char* readline();
+
+
+
+int main(){
 int n;
-printf("Nhap so n: ");
-  scanf("%d", &n);
+scanf ("%d",&n);
  if (n==1 ){   
- printf("\n one ");
+ printf("one");
 } 
 else if (n==2 ){   
- printf("\n two");
+ printf("two");
 } 
 else if (n==3 ){   
- printf("\n three ");
+ printf("three");
 } 
 else if (n==4 ){   
- printf("\n four ");
+ printf("four");
 } 
 else if (n==5 ){   
- printf("\n five ");
+ printf("five");
 } 
 else if (n==6 ){   
- printf("\n six ");
+ printf("six");
 } 
 else if (n==7 ){   
- printf("\n seven ");
+ printf("seven");
 } 
 else if (n==8 ){   
- printf("\n eight ");
+ printf("eight");
 } 
-else if (n==9 ){   
- printf("\n nice ");
+else if (n==9){   
+ printf("nine");
 } 
 else
-printf("\n vui long nhap tu 1 den 9");
+printf("Greater than 9");
 }
