@@ -28,3 +28,15 @@ int main(){
             printf("\t %d x %d = %d\n", a, b, a*b);
         }
 }
+#include <stdio.h>
+int main(){
+    int a,b;
+    printf ("bang cuu chuong ");
+   
+    for( a = 2; a <= 4;a++){
+        printf("\n cuu chuong %d \n", a);
+        for( b = 1; b <= 3; b++){
+            printf("\t%d x %d = %d\n", a, b, a*b);
+        }
+    }
+}
