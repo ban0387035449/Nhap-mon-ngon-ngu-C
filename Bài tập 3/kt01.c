@@ -25,6 +25,6 @@ int main(){
     int a=2,b;
     printf ("bang cuu chuong 2\n ");
         for(int b = 1; b <= 3; b++){
-            printf("\t%d x %d = %d\n", a, b, a*b);
+            printf("\t %d x %d = %d\n", a, b, a*b);
         }
 }
