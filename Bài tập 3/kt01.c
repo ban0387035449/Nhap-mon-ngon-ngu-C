@@ -20,3 +20,11 @@ printf("3*1=%d \n3*2=%d \n3*3=%d\n",c,c*b,c*c);
 printf("cuu chuong 4\n");
 printf("4*1=%d \n4*3=%d \n4*3=%d",d,d*b,d*c);
 }
+#include <stdio.h>
+int main(){
+    int a=2,b;
+    printf ("bang cuu chuong 2\n ");
+        for(int b = 1; b <= 3; b++){
+            printf("\t%d x %d = %d\n", a, b, a*b);
+        }
+}
