@@ -4,7 +4,7 @@ int main()
 {
     int n; int q = 0;
     
-    printf("Nhap chieu cao tam giac cua ban: \n");
+    printf("Nhap chieu cao tam giac cua tam giac: \n");
     scanf("%d",&n);
 
     while (n > 0)
@@ -28,7 +28,7 @@ cau b tam giac rong nam giua man hinh
 int main()
 {
     int n; int q = 0;
-    printf("Nhap chieu cao tam giac cua ban: \n");
+    printf("Nhap chieu cao tam giac cua tam giac: \n");
     scanf("%d",&n);
     int a = n-2;
 
