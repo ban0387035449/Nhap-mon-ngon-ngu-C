@@ -12,3 +12,18 @@ int main(){
     }    
     printf("%d",s); //hien thi ket qua sau qua trinh lap
 }
+
+
+
+
+#include<stdio.h>
+int main(){
+    int n=123,i,s=0; 
+//scanf("%d",&n);//nhap n
+for (;n!=0;){
+  i=n%10;
+  n/=10;
+  s+=i;
+}
+  printf("%d",s);
+}
