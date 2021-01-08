@@ -55,3 +55,18 @@ int main()
 
     return 0;
 }
+#include <stdio.h>
+
+int main() {
+   int n,m,h,i;
+   printf("nhap h=");
+   scanf("%d",&h);
+ for (i=1;i<=h;i++){
+   for (n=1;n<=h-i;n++)
+printf(" ");
+   for (m=1; m <= 2*i-1 ;m++)
+   printf("*");
+   
+   printf("\n");
+ }
+ }
