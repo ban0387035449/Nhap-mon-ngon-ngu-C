@@ -15,11 +15,15 @@ int main() {
     for (i = 0; i < number; i++) {
         printf("%d ", arr[i]);
     }
-    if (arr[i]%2 != 0)          //i chia cho 2 khong du thi i la so chan
-        i++;            //vong lap i 
-    for(int i = 0; i <= number; i+=2){//i+=2 moi lan tang len 2 don vi
-      tc += arr[i];
-    }
-     printf("\n tong so chan = %d\n",tc);
+
+    
+    
+
+     for (i = 0; i < number; i++){
+       if(arr[i]%2==0){
+         tc+=arr[i];
+       }
+     }
+      printf("\n tong so chan = %d\n",tc);
     return 0;
 }
