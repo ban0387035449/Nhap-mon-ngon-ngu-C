@@ -18,13 +18,13 @@ int main() {
 
     
     
-       printf ("\n so chan =");
+      printf ("\n so chan =");
      for (i = 0; i < number; i++){
-       if(arr[i]%2==0){
-        printf("\n  %d\n",arr[i]);
-       }
+       if(arr[i]%2==0)
        
+       
+        printf("\t   %d",arr[i]);
      }
-    
+     
     return 0;
 }
