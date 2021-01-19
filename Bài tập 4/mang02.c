@@ -1,7 +1,7 @@
 #include <stdio.h>
   
 int main() {    
-    int i,c=0, number;
+    int i, number;
     printf("Nhap so phan tu cua mang: ");
     scanf("%d", &number);
     int arr[number];
