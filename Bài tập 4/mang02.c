@@ -1,29 +1,25 @@
 #include <stdio.h>
   
 int main() {    
-    int i, number;
+    int i,n;
     printf("Nhap so phan tu cua mang: ");
-    scanf("%d", &number);
-    int arr[number];
-    printf("Nhap cac phan tu cua mang: \n");
-    for (i = 0; i < number; i++) {
-        printf("a[%d] = ", i);
-        scanf("%d", &arr[i]);
+    scanf("%d", &n);
+    int a[n];
+    for (i = 0; i < n; i++) {
+        printf("nhap phan tu so %d ", i+1);
+        scanf("%d", &a[i]);
     }
-    // in cac phan tu cua mang arr
-    printf("Cac phan tu cua mang: \n");
-    for (i = 0; i < number; i++) {
-        printf("%d ", arr[i]);
+    
+    printf(" mang a : \t");
+    for (i = 0; i < n; i++) {
+      // in cac phan tu cua mang a
+        printf("%d ", a[i]);
     }
-
-    
-    
       printf ("\n so chan =");
-     for (i = 0; i < number; i++){
-       if(arr[i]%2==0)
-       
-       
-        printf("\t   %d",arr[i]);
+     for (i = 0; i < n; i++){
+       if(a[i]%2==0)
+        //hien thi cac so chan
+        printf("\t   %d",a[i]);
      }
      
     return 0;
