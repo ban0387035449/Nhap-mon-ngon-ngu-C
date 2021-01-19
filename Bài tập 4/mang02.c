@@ -1,7 +1,7 @@
 #include <stdio.h>
   
 int main() {    
-    int i,tc=0, number;
+    int i,c=0, number;
     printf("Nhap so phan tu cua mang: ");
     scanf("%d", &number);
     int arr[number];
@@ -18,12 +18,13 @@ int main() {
 
     
     
-
+       printf ("\n so chan =");
      for (i = 0; i < number; i++){
        if(arr[i]%2==0){
-         tc+=arr[i];
+        printf("\n  %d\n",arr[i]);
        }
+       
      }
-      printf("\n tong so chan = %d\n",tc);
+    
     return 0;
 }
