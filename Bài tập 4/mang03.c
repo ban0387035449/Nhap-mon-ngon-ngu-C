@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  int n,sc=0,sl=0,khong=0;
+  int n,so_chan=0,so_le=0,so_0=0;
   //nhap so phan tu cua mang a
   printf("nhap n= ");
   scanf("%d",&n);
@@ -20,7 +20,7 @@ int main(void) {
   for(int i=0;i<n;i++){
         if(a[i] % 2==0 &&a[i]>0){
         printf("%d ",a[i]);
-        sc+=1;
+        so_chan+=1;
         }
   }
         printf("\nso le tu mang a: ");
@@ -28,16 +28,16 @@ int main(void) {
   for(int i=0;i<n;i++){
         if(a[i] % 2!=0){
         printf("%d ",a[i]);
-        sl+=1;
+        so_le+=1;
     }
     } 
     //vong lap tinh so luong so 0   
   for(int i=0;i<n;i++){
         if(a[i] ==0){
-        khong+=1;
+        so_0+=1;
     }
   }
-  printf("\nso chan :%d \nso le : %d \nso 0:%d",sc,sl,khong);
+  printf("\nso chan :%d \nso le : %d \nso 0:%d",so_chan,so_le,so_0);
   
   return 0;
 }
