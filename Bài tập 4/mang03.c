@@ -19,7 +19,6 @@ int main(void) {
         //vong lap tinh so chan cua mang a
   for(int i=0;i<n;i++){
         if(a[i] % 2==0 &&a[i]>0){
-
         printf("%d ",a[i]);
         sc+=1;
         }
@@ -38,8 +37,7 @@ int main(void) {
         khong+=1;
     }
   }
-  printf("\nso chan trong mang a:%d ",sc);
-  printf("\nso le trong mang a:%d ",sl);
-  printf("\nso luong 0: %d ",khong);
+  printf("\nso chan :%d \nso le : %d \nso 0:%d",sc,sl,khong);
+  
   return 0;
 }
