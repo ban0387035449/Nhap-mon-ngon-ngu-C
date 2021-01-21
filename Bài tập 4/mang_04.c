@@ -12,7 +12,7 @@ int main(void) {
     printf("nhap phan tu thu %d: ",i+1);
         scanf("%d", &a[i]);
   }
-    printf("mang a: ");
+    printf("cac phan tu cua mang a: ");
   for(int i=0; i < n; i++){
     //hien thi cac phan tu cua mang a
       printf(" %d",a[i]);
