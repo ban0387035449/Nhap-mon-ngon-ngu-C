@@ -1,0 +1,36 @@
+a> chữ viết trong ngôn ngữ c gồm
+-bảng 26 chữ cái tiếng anh hoa và thường
+-10 chữ số thập phân từ 0 đến 9
+-các kí tự toán học
+-các kí tự đặc biệt
+-khoảng trắng " dấu cách" xuống hàng "\n" tab "\t"
+
+b> có 3 kiểu dữ liệu cơ bản là:
+-kiểu số nguyên
+-kiểu số thực
+-kiểu kí tự đặc biệt
+
+c> khai báo biến
+-định nghĩa
+khai báo tên biến hoặc tên biến có gán giá trị sẽ được dùngtrong hàm main
+-cú pháp khai báo biến
+"kiểu dữ liệu", "tên biến" ,dấu ";"
+
+d>khái niệm
+- biến toàn cục:
+là biến được áp dụng cho cả bài,biến toàn cục đượcc khai báo ở phần "khối khai báo"
+-biến cục bộ:
+ được khai báo ở "khối hàm main "hoặc "khối định nghĩa hàm"
+ biến cục bộ chỉ có giá trị ở phần nó khai báo,không ảnh hưởng đến những "khối" khác
+ 
+ e> hàm
+ - khái niệm:là chương trình dược viết ngoài hàm main,khi ta gọi"tên" hàm trong main
+ biểu thức của hàm sẽ được áp dụng
+ -phân loại: 4 loại
+ +có tham số ,có giá trị trả về
+ +không có tham số,không có giá trị trả về
+ +có tham số ,không có giá trị trả về
+ +không có tham số ,có giá trị trả về.
+ 
+ f> nguyên tác hoạt dộng
+ khi ta gọi tên hàm trong main ,nó sẽ lấy biểu thức hoặc giá trị của hàm được định nghĩa và gán giá trị ở khối định nghĩa hàm.
