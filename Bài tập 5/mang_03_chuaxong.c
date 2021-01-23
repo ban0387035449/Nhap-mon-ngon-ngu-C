@@ -7,7 +7,7 @@ void Hien_thi_tong_chan (int a[]);
 void Dem_chan_le_0(int a[]);
  //khoi ham main
 int main(){
-  int n;
+
   printf("Nhap n = ");
   scanf("%d", &n);
   int a[n];
@@ -24,6 +24,7 @@ for(int i=0;i < n ;i++){
      scanf("%d", &a[i]);
   }
 }
+
 void Hien_thi_pt_mang(int a[]){
 printf("cac phan tu cua mang a: ");
   for(int i=0; i < n; i++){
@@ -36,17 +37,16 @@ printf("cac phan tu cua mang a: ");
       int tong=0;
     for(int i=0; i < n; i++){
       //tinh tong cua cac phan tu trong mang
-   tong+=a[i];
-  
-      
+        tong+=a[i];
     }
       printf("\n tong cac phan tu cua mang %d",tong);
   }
 void Dem_chan_le_0(int a[]){
-  int so_chan=0,so_le=0,so_0;
+  int so_chan=0,so_le=0,so_0=0;
+  printf("\n so le tu mang a");
      for(int i=0;i<n;i++){
         if(a[i] % 2==0 &&a[i]>0){
-        printf("%d ",a[i]);
+       printf("\t %d ",a[i]);
         so_chan+=1;
         }
   }
@@ -60,7 +60,7 @@ void Dem_chan_le_0(int a[]){
     } 
     //vong lap tinh so luong so 0   
   for(int i=0;i<n;i++){
-        if(a[i] ==0){
+        if(a[i] == 0){
         so_0+=1;
     }
   }
