@@ -6,13 +6,14 @@ a> chữ viết trong ngôn ngữ c gồm
 -khoảng trắng " dấu cách" xuống hàng "\n" tab "\t"
 
 b> có 3 kiểu dữ liệu cơ bản là:
--kiểu số nguyên
--kiểu số thực
--kiểu kí tự đặc biệt
+-kiểu số nguyên : char,int,short,long.
+-kiểu số thực : float,double,long double
+-kiểu kí tự đặc biệt : char or signed char,unsigned char
+-kieu void "khong co gia tri"
 
 c> khai báo biến
 -định nghĩa
-khai báo tên biến hoặc tên biến có gán giá trị sẽ được dùngtrong hàm main
+khai báo tên biến hoặc tên biến có gán giá trị sẽ được dùng trong bai
 -cú pháp khai báo biến
 "kiểu dữ liệu", "tên biến" ,dấu ";"
 
